@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with GitInk -->
+
+<svg
+   width="348.0"
+   height="345.0"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="git-merge-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9925"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.1275362"
+     inkscape:cx="173.91008"
+     inkscape:cy="172.5"
+     inkscape:window-width="1680"
+     inkscape:window-height="979"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="fullmarker"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="fullmarker"
+       style="overflow:visible;">
+      <path
+         style="opacity:1.0;fill:#000000;stroke:#000000;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.5) rotate(180) translate(0,0)"
+         id="path9844" />
+    </marker>
+    <marker
+       inkscape:stockid="ghostmarker"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="ghostmarker"
+       style="overflow:visible;">
+      <path
+         style="opacity:0.2;fill:#000000;stroke:#000000;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.5) rotate(180) translate(0,0)"
+         id="path9847" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="layer1"
+     inkscape:groupmode="layer"
+     transform="translate(-0.0,190.0) rotate(0)"
+     id="layer1">
+    <line
+       x1="196.0"
+       y1="15.0"
+       x2="256.0"
+       y2="15.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9851" />
+    <line
+       x1="256.0"
+       y1="15.0"
+       x2="316.0"
+       y2="-45.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9853" />
+    <line
+       x1="136.0"
+       y1="15.0"
+       x2="196.0"
+       y2="-45.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9855" />
+    <line
+       x1="136.0"
+       y1="15.0"
+       x2="196.0"
+       y2="15.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9857" />
+    <line
+       x1="136.0"
+       y1="15.0"
+       x2="196.0"
+       y2="75.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9859" />
+    <line
+       x1="196.0"
+       y1="-45.0"
+       x2="316.0"
+       y2="-45.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9861" />
+    <line
+       x1="76.0"
+       y1="15.0"
+       x2="136.0"
+       y2="15.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9863" />
+    <line
+       x1="16.0"
+       y1="15.0"
+       x2="76.0"
+       y2="15.0"
+       style="stroke:#000000;                         stroke-width:2.5;                         stroke-opacity:0.8"
+       id="line9865" />
+    <rect
+       style="fill:#aafbff;                         stroke:#64B5CD;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="180.0"
+       y="0.0"
+       ry="5.0"
+       id="rect9867" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="187.5"
+       y="20.5"
+       id="text9869">e1</text>
+    <rect
+       style="fill:#aafbff;                         stroke:#64B5CD;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="240.0"
+       y="0.0"
+       ry="5.0"
+       id="rect9871" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="247.5"
+       y="20.5"
+       id="text9873">e2</text>
+    <rect
+       style="fill:#9beeae;                         stroke:#55A868;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="300.0"
+       y="-60.0"
+       ry="5.0"
+       id="rect9875" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="307.5"
+       y="-39.5"
+       id="text9877">m5</text>
+    <rect
+       style="fill:#9beeae;                         stroke:#55A868;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="120.0"
+       y="0.0"
+       ry="5.0"
+       id="rect9879" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="127.5"
+       y="20.5"
+       id="text9881">m3</text>
+    <rect
+       style="fill:#9beeae;                         stroke:#55A868;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="180.0"
+       y="-60.0"
+       ry="5.0"
+       id="rect9883" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="187.5"
+       y="-39.5"
+       id="text9885">m4</text>
+    <rect
+       style="fill:#92b8f6;                         stroke:#4C72B0;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="180.0"
+       y="60.0"
+       ry="5.0"
+       id="rect9887" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="187.5"
+       y="80.5"
+       id="text9889">l1</text>
+    <rect
+       style="fill:#9beeae;                         stroke:#55A868;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="60.0"
+       y="0.0"
+       ry="5.0"
+       id="rect9891" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="67.5"
+       y="20.5"
+       id="text9893">m2</text>
+    <rect
+       style="fill:#9beeae;                         stroke:#55A868;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="32.0"
+       height="30.0"
+       x="0.0"
+       y="0.0"
+       ry="5.0"
+       id="rect9895" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="7.5"
+       y="20.5"
+       id="text9897">m1</text>
+    <path
+       style="fill:none;                  stroke:#000000;                  stroke-width:2.5;                  stroke-linecap:butt;                  stroke-linejoin:miter;                  stroke-opacity:1.0;                  marker-end:url(#fullmarker);                  stroke-miterlimit:4;                  stroke-dasharray:none"
+       d="M 196.0,140.0 196.0,90.6"
+       inkscape:connector-curvature="0"
+       id="path9899" />
+    <rect
+       style="fill:#dddddd;                         stroke:#000000;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="88.0"
+       height="30.0"
+       x="152.0"
+       y="125.0"
+       ry="0.0"
+       id="rect9901" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="159.5"
+       y="145.5"
+       id="text9903">less-salt</text>
+    <path
+       style="fill:none;                  stroke:#000000;                  stroke-width:2.5;                  stroke-linecap:butt;                  stroke-linejoin:miter;                  stroke-opacity:1.0;                  marker-end:url(#fullmarker);                  stroke-miterlimit:4;                  stroke-dasharray:none"
+       d="M 316.0,-110.0 316.0,-60.6"
+       inkscape:connector-curvature="0"
+       id="path9905" />
+    <rect
+       style="fill:#dddddd;                         stroke:#000000;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="64.0"
+       height="30.0"
+       x="284.0"
+       y="-125.0"
+       ry="0.0"
+       id="rect9907" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="299.49045"
+       y="-105.44006"
+       id="text9909"><tspan
+         sodipodi:role="line"
+         id="tspan9927"
+         x="299.49045"
+         y="-105.44006">main</tspan></text>
+    <path
+       style="fill:none;                  stroke:#000000;                  stroke-width:2.5;                  stroke-linecap:butt;                  stroke-linejoin:miter;                  stroke-opacity:1.0;                  marker-end:url(#fullmarker);                  stroke-miterlimit:4;                  stroke-dasharray:none"
+       d="M 316.0,-175.0 316.0,-125.6"
+       inkscape:connector-curvature="0"
+       id="path9911" />
+    <rect
+       style="fill:#dddddd;                         stroke:#000000;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="48.0"
+       height="30.0"
+       x="292.0"
+       y="-190.0"
+       ry="0.0"
+       id="rect9913" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="299.5"
+       y="-169.5"
+       id="text9915">HEAD</text>
+    <path
+       style="fill:none;                  stroke:#000000;                  stroke-width:2.5;                  stroke-linecap:butt;                  stroke-linejoin:miter;                  stroke-opacity:1.0;                  marker-end:url(#fullmarker);                  stroke-miterlimit:4;                  stroke-dasharray:none"
+       d="M 256.0,80.0 256.0,30.6"
+       inkscape:connector-curvature="0"
+       id="path9917" />
+    <rect
+       style="fill:#dddddd;                         stroke:#000000;                         stroke-width:1.25;                         stroke-miterlimit:4;                         stroke-opacity:1.0;                         stroke-dasharray:none"
+       width="96.0"
+       height="30.0"
+       x="208.0"
+       y="65.0"
+       ry="0.0"
+       id="rect9919" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:0%;font-family:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="215.5"
+       y="85.5"
+       id="text9921">experiment</text>
+  </g>
+</svg>
