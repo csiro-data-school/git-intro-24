@@ -63,7 +63,7 @@ metadata make up a [repository](../learners/reference.md#repository).
 Repositories can be kept in sync across different computers, facilitating
 collaboration among different people.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Have you ever said or heard...
 
@@ -75,9 +75,9 @@ collaboration among different people.
 
 **Then version control is for you**
  
-:::::::::::::::::::::::::::::::::::::::::  callout
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::  discussion
 
 ## Discussion : Paper Writing
  
@@ -89,7 +89,7 @@ they make to your paper?  If you use LibreOffice Writer or Microsoft Word, what 
 you accept changes made using the `Track Changes` option? Do you have a
 history of those changes?
  
-:::::::::::::::::::::::::::::::::::::::::  discussion
+:::::::::::::::::::::::::::::::::::::::::::::::::::
 
   
 ## What is version control?
