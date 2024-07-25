@@ -13,10 +13,8 @@ message: >-
   training material.
 type: dataset
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Andrew
+    family-names: Spriggs
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  Introduction to Git for version control, with BitBucket online repositories.
 license: CC-BY-4.0
