@@ -103,9 +103,8 @@ There are lots of different tools that implement version control (generally refe
   - you can experiment with an idea and discard it if it turns out to be a bad idea
 - Implementation of **merging**:
   - tool to merge different versions of a file 
-
----
-
+  
+  
 ## Code becomes a disaster without version control
 
 
@@ -131,9 +130,8 @@ There are lots of different tools that implement version control (generally refe
 
 - Online repositories, for safely storing snapshots and version history, are a cornerstone of version control
 - Can act as a file backup, a collaboration tool, a download source, a citable reference, etc..
-
----
-
+  
+  
 ## We will use [Git](https://git-scm.com) as our VCS to record snapshots of our work - why Git?
 
 - Easy to set up - use even by yourself with no server needed.
