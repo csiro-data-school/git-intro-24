@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: All in One View</title>
+<title>Introduction to git: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="../assets/styles.css">
 <script src="../assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -30,21 +30,12 @@
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
 </head>
 <body>
-    <header id="top" class="navbar navbar-expand-md top-nav incubator"><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewbox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path></symbol><symbol id="circle-half" viewbox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path></symbol><symbol id="moon-stars-fill" viewbox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></symbol><symbol id="sun-fill" viewbox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></symbol></svg><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
+    <header id="top" class="navbar navbar-expand-md top-nav software"><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewbox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path></symbol><symbol id="circle-half" viewbox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path></symbol><symbol id="moon-stars-fill" viewbox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></symbol><symbol id="sun-fill" viewbox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></symbol></svg><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="incubator-logo" alt="Carpentries Incubator" src="../assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
-          <abbr title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.">
-            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#early-development-pre-alpha-through-alpha" class="external-link alert-link">
-              <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="border-radius: 5px"></i>
-              Pre-Alpha
-            </a>
-            <span class="visually-hidden">This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.</span>
-          </abbr>
-        </span>
-
-      </div>
+        <img id="swc-logo" alt="Software Carpentry" src="../assets/images/software-logo.svg">
+</div>
     </div>
     <div class="selector-container">
       <div id="theme-selector">
@@ -85,16 +76,16 @@
 </div>
     </div>
   </div>
-  <hr></header><nav class="navbar navbar-expand-xl bottom-nav incubator" aria-label="Main Navigation"><div class="container-fluid nav-container">
+  <hr></header><nav class="navbar navbar-expand-xl bottom-nav software" aria-label="Main Navigation"><div class="container-fluid nav-container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
     <div class="nav-logo">
-      <img class="small-logo" alt="Carpentries Incubator" src="../assets/images/incubator-logo-sm.svg">
+      <img class="small-logo" alt="Software Carpentry" src="../assets/images/software-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Introduction to git
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -105,7 +96,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Introduction to git
           </span>
         </li>
         <li class="nav-item">
@@ -123,7 +114,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 <hr>
-<li><a class="dropdown-item" href="reference.html">Reference</a></li>
+<li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
           </ul>
 </li>
       </ul>
@@ -142,14 +133,14 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  Lesson Title
+  Introduction to git
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
     %
   </div>
-  <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: %" aria-valuenow="" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress software">
+    <div class="progress-bar software" role="progressbar" style="width: %" aria-valuenow="" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -244,7 +235,55 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="01-motivation.html">1. Motivation</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="02-existing-repo.html">2. In-browser session</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="03-configuring-git.html">3. Configuring Git</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04-starting-a-repo.html">4. Our first repo</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-undoing.html">5. Undoing things</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -278,7 +317,7 @@
                         <a href="../instructor/images.html">Extract All Images</a>
                       </li>
                       <hr>
-<li><a class="dropdown-item" href="reference.html">Reference</a></li>
+<li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
                     </ul>
 </div>
                 </div>
@@ -308,12 +347,12 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">Using Markdown</a></p>
+<section id="aio-01-motivation"><p>Content from <a href="01-motivation.html">Motivation</a></p>
 <hr>
-<p>Last updated on 2023-07-24 |
+<p>Last updated on 2024-07-25 |
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+        <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/episodes/01-motivation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -325,8 +364,8 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>Why version control?</li>
+<li>Why Git?</li>
 </ul>
 </div>
 </div>
@@ -336,144 +375,187 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Understand the benefits of an automated version control system.</li>
+<li>Understand the basics of how automated version control systems
+work.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<section><h2 class="section-heading" id="why-do-we-need-version-control">Why do we need version control?<a class="anchor" aria-label="anchor" href="#why-do-we-need-version-control"></a>
+<a class="anchor" aria-label="anchor" href="#why-do-we-need-version-control"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?<a class="anchor" aria-label="anchor" href="#challenge-1-can-you-do-it"></a>
-</h3>
-<div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Output </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do-you-nest-solutions-within-challenge-blocks"></a>
-</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
-<a class="anchor" aria-label="anchor" href="#figures"></a>
-</h2>
-<hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
+<p>We’ll start by exploring how version control can be used to keep
+track of what one person did and when. Even if you aren’t collaborating
+with other people, automated version control is much better than this
+situation:</p>
+<p><a href="http://www.phdcomics.com" class="external-link"><img src="../fig/intro/phd101212s.png" alt="Piled Higher and Deeper by Jorge Cham, http://www.phdcomics.com/comics/archive_print.php?comicid=1531" class="figure"></a></p>
+<p>We’ve all been in this situation before: it seems unnecessary to have
+multiple nearly-identical versions of the same document. Some word
+processors let us deal with this a little better, such as Microsoft
+Word’s <a href="https://support.office.com/en-us/article/Track-changes-in-Word-197ba630-0f5f-4a8e-9a77-3712475e806a" class="external-link">Track
+Changes</a>, Google Docs’ <a href="https://support.google.com/docs/answer/190843?hl=en" class="external-link">version
+history</a>, or LibreOffice’s <a href="https://help.libreoffice.org/Common/Recording_and_Displaying_Changes" class="external-link">Recording
+and Displaying Changes</a>.</p>
+<p>Version control systems start with a base version of the document and
+then record changes you make each step of the way. You can think of it
+as a recording of your progress: you can rewind to start at the base
+document and play back each change you made, eventually arriving at your
+more recent version.</p>
+<figure><img src="../fig/intro/play-changes.svg" alt="Changes Are Saved Sequentially" width="700" class="figure mx-auto d-block"></figure><p>Once you think of changes as separate from the document itself, you
+can then think about “playing back” different sets of changes on the
+base document, ultimately resulting in different versions of that
+document. For example, two users can make independent sets of changes on
+the same document.</p>
+<figure><img src="../fig/intro/versions.svg" alt="Different Versions Can be Saved" width="700" class="figure mx-auto d-block"></figure><p>Unless multiple users make changes to the same section of the
+document - a conflict - you can incorporate two sets of changes into the
+same base document.</p>
+<figure><img src="../fig/intro/merge.svg" alt="Multiple Versions Can be Merged" width="700" class="figure mx-auto d-block"></figure><p>A version control system is a tool that keeps track of these changes
+for us, effectively creating different versions of our files. It allows
+us to decide which changes will be made to the next version (each record
+of these changes is called a <a href="reference.html#commit">commit</a>), and keeps useful metadata
+about them. The complete history of commits for a particular project and
+their metadata make up a <a href="reference.html#repository">repository</a>. Repositories can be
+kept in sync across different computers, facilitating collaboration
+among different people.</p>
+<div id="have-you-ever-said-or-heard" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<div id="have-you-ever-said-or-heard" class="callout-inner">
+<h3 class="callout-title">Have you ever said or heard…<a class="anchor" aria-label="anchor" href="#have-you-ever-said-or-heard"></a>
 </h3>
 <div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
+<ul>
+<li>
+<em>“I will just finish my work and then you can start with your
+changes.”</em>.</li>
+<li>
+<em>“Can you please send me the latest version?”</em>.</li>
+<li>
+<em>“Where is the latest version?”</em>.</li>
+<li>
+<em>“Which version are you using?”</em>.</li>
+<li>
+<em>“Which version have the authors used in the paper I am trying to
+reproduce?”</em>.</li>
+</ul>
+<p><strong>Then version control is for you</strong></p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
-<a class="anchor" aria-label="anchor" href="#math"></a>
+<div id="discussion-paper-writing" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="discussion-paper-writing" class="callout-inner">
+<h3 class="callout-title">Discussion : Paper Writing<a class="anchor" aria-label="anchor" href="#discussion-paper-writing"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li><p>Imagine you drafted an excellent paragraph for a paper you are
+writing, but later ruin it. How would you retrieve the
+<em>excellent</em> version of your conclusion? Is it even
+possible?</p></li>
+<li><p>Imagine you have 5 co-authors. How would you manage the changes
+and comments they make to your paper? If you use LibreOffice Writer or
+Microsoft Word, what happens if you accept changes made using the
+<code>Track Changes</code> option? Do you have a history of those
+changes?</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="what-is-version-control">What is version control?<a class="anchor" aria-label="anchor" href="#what-is-version-control"></a>
+<a class="anchor" aria-label="anchor" href="#what-is-version-control"></a>
 </h2>
 <hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
+<p>There are lots of different tools that implement version control
+(generally referred to as <strong>V</strong>ersion
+<strong>C</strong>ontrol <strong>S</strong>ystems,
+<strong>VCS</strong>). They all have common features, including:</p>
+<ul>
+<li>A system which <strong>records snapshots</strong> of a project</li>
+<li>Implementation of <strong>branching</strong>:
+<ul>
+<li>you can work on several feature branches and switch between
+them</li>
+<li>different people can work on the same code/project in parallel
+without interfering</li>
+<li>you can experiment with an idea and discard it if it turns out to be
+a bad idea</li>
+</ul>
+</li>
+<li>Implementation of <strong>merging</strong>:
+<ul>
+<li>tool to merge different versions of a file</li>
+</ul>
+</li>
+</ul></section><section><h2 class="section-heading" id="code-becomes-a-disaster-without-version-control">Code becomes a disaster without version control<a class="anchor" aria-label="anchor" href="#code-becomes-a-disaster-without-version-control"></a>
+<a class="anchor" aria-label="anchor" href="#code-becomes-a-disaster-without-version-control"></a>
+</h2>
+<hr class="half-width">
+<div class="section level3">
+<h3 id="roll-back-functionality">Roll-back functionality<a class="anchor" aria-label="anchor" href="#roll-back-functionality"></a>
+</h3>
+<ul>
+<li>Mistakes happen - without recorded snapshots you cannot easily undo
+mistakes and go back to a working version.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="branching">Branching<a class="anchor" aria-label="anchor" href="#branching"></a>
+</h3>
+<ul>
+<li>Often you want to experiment with an idea, or work on different
+approaches in one file - without branching this can be messy and
+confusing.</li>
+<li>You could simulate branching by copying an entire project to
+multiple places but this would be messy and confusing.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="reproducibility">Reproducibility<a class="anchor" aria-label="anchor" href="#reproducibility"></a>
+</h3>
+<ul>
+<li>How do you indicate which version of your code you have used in your
+paper?</li>
+<li>When you find a bug, how do you know when precisely this bug was
+introduced (are published results affected? do you need to inform
+collaborators or users of your code?).</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="storing-and-sharing-code">Storing and sharing code<a class="anchor" aria-label="anchor" href="#storing-and-sharing-code"></a>
+</h3>
+<ul>
+<li>Online repositories, for safely storing snapshots and version
+history, are a cornerstone of version control</li>
+<li>Can act as a file backup, a collaboration tool, a download source, a
+citable reference, etc..</li>
+</ul>
+</div>
+</section><section><h2 class="section-heading" id="we-will-use-git-as-our-vcs-to-record-snapshots-of-our-work---why-git">We will use <a href="https://git-scm.com" class="external-link">Git</a> as our VCS to
+record snapshots of our work - why Git?<a class="anchor" aria-label="anchor" href="#we-will-use-git-as-our-vcs-to-record-snapshots-of-our-work---why-git"></a>
+<a class="anchor" aria-label="anchor" href="#we-will-use-git-as-our-vcs-to-record-snapshots-of-our-work---why-git"></a>
+</h2>
+<hr class="half-width">
+<ul>
+<li>Easy to set up - use even by yourself with no server needed.</li>
+<li>Very popular: if contributing to somebody else’s code, chances are
+it’s tracked with Git.</li>
+<li>Distributed: good backup, no single point of failure, you can track
+and clean-up changes offline, simplifies collaboration model for
+open-source projects.</li>
+<li>Important platforms such as <a href="https://github.com" class="external-link">GitHub</a>,
+<a href="https://gitlab.com" class="external-link">GitLab</a>, and <a href="https://bitbucket.org" class="external-link">Bitbucket</a> build on top of Git.</li>
+<li>Sharing software and data is getting popular and required in
+research context and sites like <a href="https://github.com" class="external-link">GitHub</a>
+are a popular platform for sharing software.</li>
+</ul>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -483,14 +565,8 @@ this:</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Version control is like an unlimited ‘undo’.</li>
+<li>Version control also allows many people to work in parallel.</li>
 </ul>
 </div>
 </div>
@@ -499,6 +575,1172 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
+</section></section><section id="aio-02-existing-repo"><p>Content from <a href="02-existing-repo.html">In-browser session</a></p>
+<hr>
+<p>Last updated on 2024-07-26 |
+
+        <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/episodes/02-existing-repo.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Where are we heading?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>See an existing repository in action.</li>
+<li>Browse the history.</li>
+<li>See the big picture first before we dive into details.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level1">
+<h1 id="in-browser-session">In-browser session<a class="anchor" aria-label="anchor" href="#in-browser-session"></a>
+</h1>
+<ul>
+<li>We will explore and visualize an <strong>existing Git
+repository</strong> on BitBucket.</li>
+<li>The goal of this episode is not to teach BitBucket, but rather to
+get a glimpse of the wider picture before going into the details.</li>
+</ul>
+<div class="section level2">
+<h2 id="why">Why?<a class="anchor" aria-label="anchor" href="#why"></a>
+</h2>
+<ul>
+<li>Often our first contact with Git is an existing repository.</li>
+<li>It’s good to see the social aspect to know what our end goal
+is.</li>
+<li>Don’t worry about the details of the steps here, just investigate
+what we can learn about an existing repository.</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="bitbucket-demo">Bitbucket demo<a class="anchor" aria-label="anchor" href="#bitbucket-demo"></a>
+</h2>
+<p>We’ll start with a very simple <a href="https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/" class="external-link">existing
+repository</a> that contains a brief history from a couple of different
+people.</p>
+<figure><img src="../fig/bitbucket/example-repo.png" style="width:50.0%" alt="BitBucket example screen" class="figure mx-auto d-block"></figure><ul>
+<li>History
+<ul>
+<li>Explore the <a href="https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/" class="external-link">repository</a>.</li>
+<li>Explore the history and <a href="https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/commits" class="external-link">commits</a>.</li>
+<li>Note that there are <a href="https://bitbucket.csiro.au/plugins/servlet/network/DAT/programmatic-data-example" class="external-link">branches</a>.</li>
+</ul>
+</li>
+<li>Reproducibility
+<ul>
+<li>Explore the <a href="https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/browse/scripts/visualise-data.R" class="external-link">‘blame’
+feature</a>.</li>
+</ul>
+</li>
+<li>Collaboration
+<ul>
+<li>You can refer to <a href="https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/browse/scripts/visualise-data.R#5-7" class="external-link">code
+portions</a> (so much simpler to send a link rather than describe which
+file to open and where to scroll to).</li>
+<li>Note the <a href="https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/commits" class="external-link">contributors</a>.</li>
+</ul>
+</li>
+<li>As a file source
+<ul>
+<li>We can create a local copy of all files in a repository through a
+<strong>clone</strong>
+</li>
+<li><code>git clone https://bitbucket.csiro.au/scm/dat/programmatic-data-example.git</code></li>
+</ul>
+</li>
+</ul>
+<p>These features are all based on the core underlying Git system, that
+works independently of Bitbucket and is shared by other sites such as
+GitHub and GitLab.</p>
+</div>
+<div class="section level2">
+<h2 id="github-demo">GitHub demo<a class="anchor" aria-label="anchor" href="#github-demo"></a>
+</h2>
+<p><a href="https://github.com/csiro-data-school/git-intro-24" class="external-link">These
+lessons</a> are themselves tracked through Git, but stored on GitHub
+(making use of the automatic webpage generation feature GitHub
+Pages).<br>
+Note that GitHub looks very different to BitBucket, but all of the same
+information and features may be found, with a click around.</p>
+<p>This version of Git Intro lessons is a modified <a href="https://github.com/csiro-data-school/git-intro-23/network/members" class="external-link">“fork”</a>
+of an older version, which was itself a “fork” of other older versions.
+A <strong>fork</strong> is a full copy of a repository into a new
+repository, which retains full history but allows it to branch in its
+own separate direction, under separate control. We’ll discuss forks
+further later.</p>
+<p>The bulk of these lessons are thanks to the <a href="https://github.com/coderefinery/git-intro" class="external-link">Code Refinery</a> and
+<a href="https://github.com/swcarpentry/git-novice" class="external-link">Software
+Carpentry</a> Git lessons, also in their own Git repositories.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>There are multiple online repositories for storing projects that all
+use the underlying Git framework</li>
+<li>Bitbucket is one such service, using Git to provide functionality to
+collaborate with other people</li>
+<li>We can browse the history of the contents of repositories and see
+who made which changes</li>
+<li>Other platforms like Github look different by employ the same
+fundamentals</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</div></section><section id="aio-03-configuring-git"><p>Content from <a href="03-configuring-git.html">Configuring Git</a></p>
+<hr>
+<p>Last updated on 2024-07-26 |
+
+        <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/episodes/03-configuring-git.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do we configure git?</li>
+<li>What are our options for text editors?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Learn how to configure the most useful git options.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="configuring-git">Configuring Git<a class="anchor" aria-label="anchor" href="#configuring-git"></a>
+<a class="anchor" aria-label="anchor" href="#configuring-git"></a>
+</h2>
+<hr class="half-width">
+<p><strong>All the configuration we enter here will be stored in a file
+<code>~/.gitconfig</code>.</strong></p>
+<p>When we use Git on a new computer for the first time, we need to
+configure a few things. Below are a few examples of configurations we
+will set as we get started with Git:</p>
+<ul>
+<li>our name and email address,</li>
+<li>what our preferred text editor is,</li>
+<li>and that we want to use these settings globally (i.e. for every
+project).</li>
+</ul>
+<p>Let’s work through it together in Git Bash.</p>
+<p>First, the following commands will set your user name and email
+address:</p>
+<pre class="shell"><code>$ git config --global user.name "Your Name"
+$ git config --global user.email yourname@example.com</code></pre>
+<p>The name and contact email will be recorded together with the code
+changes when we run <code>git commit</code>.</p>
+<div id="private-email" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="private-email" class="callout-inner">
+<h3 class="callout-title">Private email<a class="anchor" aria-label="anchor" href="#private-email"></a>
+</h3>
+<div class="callout-content">
+<p>If you’re using GitHub, and if you’d like to keep your personal email
+address private, you can use a GitHub-provided no-reply email address as
+your commit email address. <a href="https://help.github.com/articles/about-commit-email-addresses/" class="external-link">See
+here for further details</a>.</p>
+</div>
+</div>
+</div>
+<div id="line-endings" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="line-endings" class="callout-inner">
+<h3 class="callout-title">Line Endings<a class="anchor" aria-label="anchor" href="#line-endings"></a>
+</h3>
+<div class="callout-content">
+<p>As with other keys, when you hit <kbd>Return</kbd> on your keyboard,
+your computer encodes this input as a character. Different operating
+systems use different character(s) to represent the end of a line. (You
+may also hear these referred to as newlines or line breaks.) Because Git
+uses these characters to compare files, it may cause unexpected issues
+when editing a file on different machines. Though it is beyond the scope
+of this lesson, you can read more about this issue <a href="https://help.github.com/articles/dealing-with-line-endings/" class="external-link">on
+this GitHub page</a>.</p>
+</div>
+</div>
+</div>
+<blockquote>
+<p>You can change the way Git recognizes and encodes line endings using
+the <code>core.autocrlf</code> command to <code>git config</code>. The
+following settings are recommended:</p>
+<p>On macOS and Linux:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> core.autocrlf input</span></code></pre>
+</div>
+<p>And on Windows:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> core.autocrlf true</span></code></pre>
+</div>
+</blockquote>
+</section><section><h2 class="section-heading" id="setting-a-default-text-editor">Setting a default text editor<a class="anchor" aria-label="anchor" href="#setting-a-default-text-editor"></a>
+<a class="anchor" aria-label="anchor" href="#setting-a-default-text-editor"></a>
+</h2>
+<hr class="half-width">
+<p>When you work with Git, you often need to make small text files to
+describe a ‘snapshot’. When this is necessary, Git will open whatever
+default text editor you have set. This means it’s often useful to choose
+which text editor you prefer, and set it as the default. On your local
+machine, you can set it to be whatever you like, but if you’re working
+on a remote system, you will only have access to editors that are
+available there.</p>
+<p>Below is a list of commands to set the default editor to a list of
+common tools. If you don’t have any of these available, you might want
+to install Sublime Text, which is a great option that you can download
+from <a href="https://www.sublimetext.com/3" class="external-link">https://www.sublimetext.com/3</a>,
+or <a href="https://code.visualstudio.com/" class="external-link">VS Code</a>, which is also
+great and in addition is free.</p>
+<table class="table">
+<colgroup>
+<col width="28%">
+<col width="71%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">Editor</th>
+<th align="left">Configuration command</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">Atom</td>
+<td align="left"><code>$ git config --global core.editor "atom --wait"</code></td>
+</tr>
+<tr class="even">
+<td align="left">BBEdit (Mac, with command line tools)</td>
+<td align="left"><code>$ git config --global core.editor "bbedit -w"</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Emacs</td>
+<td align="left"><code>$ git config --global core.editor "emacs"</code></td>
+</tr>
+<tr class="even">
+<td align="left">Gedit (Linux)</td>
+<td align="left"><code>$ git config --global core.editor "gedit --wait --new-window"</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Kate (Linux)</td>
+<td align="left"><code>$ git config --global core.editor "kate"</code></td>
+</tr>
+<tr class="even">
+<td align="left">nano</td>
+<td align="left"><code>$ git config --global core.editor "nano -w"</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Notepad++ (Win, 32-bit install)</td>
+<td align="left"><code>$ git config --global core.editor "'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"</code></td>
+</tr>
+<tr class="even">
+<td align="left">Notepad++ (Win, 64-bit install)</td>
+<td align="left"><code>$ git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Scratch (Linux)</td>
+<td align="left"><code>$ git config --global core.editor "scratch-text-editor"</code></td>
+</tr>
+<tr class="even">
+<td align="left">Sublime Text (Mac)</td>
+<td align="left"><code>$ git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -w"</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Sublime Text (Win, 32-bit install)</td>
+<td align="left"><code>$ git config --global core.editor "'c:/program files (x86)/sublime text 3/sublime_text.exe' -w"</code></td>
+</tr>
+<tr class="even">
+<td align="left">Sublime Text (Win, 64-bit install)</td>
+<td align="left"><code>$ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Vim</td>
+<td align="left"><code>$ git config --global core.editor "vim"</code></td>
+</tr>
+<tr class="even">
+<td align="left">VS Code</td>
+<td align="left"><code>$ git config --global core.editor "code --wait"</code></td>
+</tr>
+</tbody>
+</table>
+<div id="git-help-and-manual" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="git-help-and-manual" class="callout-inner">
+<h3 class="callout-title">Git Help and Manual<a class="anchor" aria-label="anchor" href="#git-help-and-manual"></a>
+</h3>
+<div class="callout-content">
+<p>Always remember that if you forget a <code>git</code> command, you
+can access the list of commands by using <code>-h</code> and access the
+Git manual by using <code>--help</code> :</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">-h</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--help</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="optional-git-gui">Optional: Git GUI<a class="anchor" aria-label="anchor" href="#optional-git-gui"></a>
+<a class="anchor" aria-label="anchor" href="#optional-git-gui"></a>
+</h2>
+<hr class="half-width">
+<p>You might find it easier to know what is going on if you install a
+Graphical User Interface.</p>
+<p>There are many options here. Depending on your installation of git
+you might have a built-in basic GUI called <code>gitk</code> or
+<code>[QGit](https://github.com/tibirna/qgit#readme)</code>. This is
+free. Alternatively you might try a commercial git GUI. Here are some
+popular ones:</p>
+<ul>
+<li>
+<a href="https://www.sourcetreeapp.com/" class="external-link">Sourcetree</a> (macOS,
+Windows)<br>
+</li>
+<li>
+<a href="https://www.sublimemerge.com/" class="external-link">Sublime merge</a> (macOS,
+Windows, Linux)</li>
+<li>
+<a href="https://www.gitkraken.com/" class="external-link">Gitkraken</a> (macOS, Windows,
+Linux)</li>
+<li>
+<a href="https://git-fork.com/" class="external-link">Fork</a> (macOS, Windows)</li>
+</ul>
+<p>Sourcetree is available for CSIRO staff within the Software
+Center.</p>
+<p>None of these are needed for this introductory tutorial, but they can
+be helpful to build understanding.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>git configuration is all stored in <code>~/.gitconfig</code>
+</li>
+<li>The config is specific to each computer you use.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-04-starting-a-repo"><p>Content from <a href="04-starting-a-repo.html">Our first repo</a></p>
+<hr>
+<p>Last updated on 2024-07-26 |
+
+        <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/episodes/04-starting-a-repo.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 60 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What is a repository?</li>
+<li>How does Git operate?</li>
+<li>How do I make commits?</li>
+<li>How do I select what to commit?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Learn to create Git repositories and make commits.</li>
+<li>Get a grasp of the structure of a repository.</li>
+<li>Learn how to inspect the project history.</li>
+<li>Learn how to write useful commit log messages.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="tracking-a-guacamole-recipe-with-git">Tracking a guacamole recipe with Git<a class="anchor" aria-label="anchor" href="#tracking-a-guacamole-recipe-with-git"></a>
+<a class="anchor" aria-label="anchor" href="#tracking-a-guacamole-recipe-with-git"></a>
+</h2>
+<hr class="half-width">
+<p>We will learn how to initialize a Git repository, how to track
+changes, and how to make delicious guacamole!</p>
+<p>This example is inspired by <a href="http://blog.byronjsmith.com" class="external-link">Byron Smith</a>, for original
+reference, see <a href="http://lists.software-carpentry.org/pipermail/discuss/2016-May/004529.html" class="external-link">this
+thread</a>. The motivation for taking a cooking recipe instead of a
+program is that everybody can relate to cooking but not everybody may be
+able to relate to a program written in e.g. Python or another
+language.</p>
+<p>Let’s start.</p>
+<p>Make a new directory for this lesson. We’ll store the Git
+repositories we make inside this directory.</p>
+<p>One of the basic principles of Git is that it is <strong>easy to
+create repositories</strong>:</p>
+<p>From inside your new directory:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> mkdir recipe</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">$</span> cd recipe</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="ex">$</span> git init</span></code></pre>
+</div>
+<p>That’s it! We have now created an empty Git repository.</p>
+<p>If we use <code>ls</code> to show the directory’s contents, it
+appears that nothing has changed:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+</div>
+<p>But if we add the <code>-a</code> flag to show everything, we can see
+that Git has created a hidden directory within <code>recipe</code>
+called <code>.git</code>:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> ls <span class="at">-a</span> </span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="bu">.</span> ..  .git </span></code></pre>
+</div>
+<p>Git uses this special sub-directory to store all the information
+about the project, including all files and sub-directories located
+within the project’s directory. If we ever delete the .git
+sub-directory, we will lose the project’s history.</p>
+<p>We will use <code>git status</code> a lot to check out to see what is
+going on with the repository:</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">$</span> git status</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="ex">On</span> branch main</span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="ex">No</span> commits yet</span>
+<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a><span class="ex">nothing</span> to commit <span class="er">(</span><span class="ex">create/copy</span> files and use <span class="st">"git add"</span> to track<span class="kw">)</span></span></code></pre>
+</div>
+<p>We will make sense of this information during this lesson.</p>
+</section><section><h2 class="section-heading" id="so-what-exactly-is-a-git-repository">So what exactly is a Git repository?<a class="anchor" aria-label="anchor" href="#so-what-exactly-is-a-git-repository"></a>
+<a class="anchor" aria-label="anchor" href="#so-what-exactly-is-a-git-repository"></a>
+</h2>
+<hr class="half-width">
+<ul>
+<li>Remember Git is a <em>version control system</em>: it records
+snapshots and tracks the content of a folder as it changes over
+time.</li>
+<li>Every time we <strong>commit</strong> a snapshot, Git records a
+snapshot of the <strong>entire project</strong>, saves it, and assigns
+it a version.<br>
+</li>
+<li>It does this efficiently, by recording just the changes from one
+snapshot to the next, called the <strong>diff</strong>.</li>
+<li>These snapshots are kept inside the <code>.git</code>
+sub-folder.</li>
+<li>If we remove <code>.git</code>, we remove the repository and history
+(but keep the working directory!).</li>
+<li>
+<code>.git</code> uses relative paths - you can move the whole thing
+somewhere else and it will still work</li>
+<li>Git doesn’t do anything unless you ask it to (it does not record
+anything automatically).</li>
+</ul>
+<hr></section><section><h2 class="section-heading" id="recording-a-snapshot-with-git">Recording a snapshot with Git<a class="anchor" aria-label="anchor" href="#recording-a-snapshot-with-git"></a>
+<a class="anchor" aria-label="anchor" href="#recording-a-snapshot-with-git"></a>
+</h2>
+<hr class="half-width">
+<ul>
+<li>Git takes snapshots only if we request it.</li>
+<li>We will record changes always in two steps (we will later explain
+why this is a recommended practice):</li>
+</ul>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">$</span> git add somefile.txt</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="ex">$</span> git commit</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a><span class="ex">$</span> git add file.txt anotherfile.txt</span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a><span class="ex">$</span> git commit</span></code></pre>
+</div>
+<ul>
+<li>We first focus (<code>git add</code>, we “stage” the change), then
+shoot (<code>git commit</code>):</li>
+</ul>
+<figure><img src="../fig/git_stage_commit.svg" alt="git staging and committing" max-width="70%" class="figure mx-auto d-block"></figure><div id="discussion" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="discussion" class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
+</h3>
+<div class="callout-content">
+<p>What do you think will be the outcome if you stage a file and then
+edit it and stage it again, do this several times and at the end perform
+a commit? (think of focusing several scenes and pressing the shoot
+button only at the end)</p>
+</div>
+</div>
+</div>
+<hr>
+<p>So that’s the concept - let’s do it for real.</p>
+<p>Let’s <strong>create two files</strong>.</p>
+<p>One file is called <code>instructions.txt</code> and contains:</p>
+<pre><code>* chop avocados
+* chop onion
+* squeeze lime
+* add salt
+* and mix well</code></pre>
+<p>The second file is called <code>ingredients.txt</code> and
+contains:</p>
+<pre><code>* 2 avocados
+* 1 lime
+* 2 tsp salt</code></pre>
+<p>As mentioned above, in Git you can always check the status of files
+in your repository using <code>git status</code>. It is always a safe
+command to run and in general a good idea to do when you are trying to
+figure out what to do next:</p>
+<div class="codewrapper sourceCode" id="cb8">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="ex">$</span> git status</span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a><span class="ex">On</span> branch main</span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" tabindex="-1"></a><span class="ex">No</span> commits yet</span>
+<span id="cb8-6"><a href="#cb8-6" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" tabindex="-1"></a><span class="ex">Untracked</span> files:</span>
+<span id="cb8-8"><a href="#cb8-8" tabindex="-1"></a>  <span class="kw">(</span><span class="ex">use</span> <span class="st">"git add &lt;file&gt;..."</span> to include in what will be committed<span class="kw">)</span></span>
+<span id="cb8-9"><a href="#cb8-9" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" tabindex="-1"></a>	<span class="ex">ingredients.txt</span></span>
+<span id="cb8-11"><a href="#cb8-11" tabindex="-1"></a>	<span class="ex">instructions.txt</span></span>
+<span id="cb8-12"><a href="#cb8-12" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" tabindex="-1"></a><span class="ex">nothing</span> added to commit but untracked files present <span class="er">(</span><span class="ex">use</span> <span class="st">"git add"</span> to track<span class="kw">)</span></span></code></pre>
+</div>
+<p>The two files are untracked in the repository (directory). Going back
+to the photography analogy, you want to <strong><code>add</code> the
+files</strong> (focus the camera) to the list of files tracked by Git.
+Git does not track any files automatically and you need make a conscious
+decision to add a file. Let’s do what Git hints at and add the
+files:</p>
+<div class="codewrapper sourceCode" id="cb9">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="ex">$</span> git add ingredients.txt</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="ex">$</span> git add instructions.txt</span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="ex">$</span> git status</span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a><span class="ex">On</span> branch main</span>
+<span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a><span class="ex">Initial</span> commit</span>
+<span id="cb9-8"><a href="#cb9-8" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" tabindex="-1"></a><span class="ex">Changes</span> to be committed:</span>
+<span id="cb9-10"><a href="#cb9-10" tabindex="-1"></a>  <span class="kw">(</span><span class="ex">use</span> <span class="st">"git rm --cached &lt;file&gt;..."</span> to unstage<span class="kw">)</span></span>
+<span id="cb9-11"><a href="#cb9-11" tabindex="-1"></a></span>
+<span id="cb9-12"><a href="#cb9-12" tabindex="-1"></a>	<span class="ex">new</span> file:   ingredients.txt</span>
+<span id="cb9-13"><a href="#cb9-13" tabindex="-1"></a>	<span class="ex">new</span> file:   instructions.txt</span></code></pre>
+</div>
+<p>Now this change is <em>staged</em> and ready to be committed (the
+camera is focused and we’re ready to take the snapshot).</p>
+<p>Let’s now commit the change to the repository:</p>
+<div class="codewrapper sourceCode" id="cb10">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"adding ingredients and instructions"</span></span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a><span class="ex">[main</span> <span class="er">(</span><span class="ex">root-commit</span><span class="kw">)</span> <span class="ex">aa243ea]</span> adding ingredients and instructions</span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a> <span class="ex">2</span> files changed, 8 insertions<span class="er">(</span><span class="ex">+</span><span class="kw">)</span></span>
+<span id="cb10-5"><a href="#cb10-5" tabindex="-1"></a> <span class="ex">create</span> mode 100644 ingredients.txt</span>
+<span id="cb10-6"><a href="#cb10-6" tabindex="-1"></a> <span class="ex">create</span> mode 100644 instructions.txt</span></code></pre>
+</div>
+<p>Right after we query the status to get this useful command into our
+muscle memory:</p>
+<div class="codewrapper sourceCode" id="cb11">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
+</div>
+<div class="section level3">
+<h3 id="looking-at-the-history">Looking at the history<a class="anchor" aria-label="anchor" href="#looking-at-the-history"></a>
+</h3>
+<p>Now try <code>git log</code> to see the information that git has
+stored about your snapshot:</p>
+<div class="codewrapper sourceCode" id="cb12">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="ex">$</span> git log</span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a><span class="ex">commit</span> 787611f02dd6fc862c87359b804859caa5d2fdbd</span>
+<span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a><span class="ex">Author:</span> Alex Whan <span class="op">&lt;</span>alexwhan@gmail.com<span class="op">&gt;</span></span>
+<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a><span class="ex">Date:</span>   Wed Mar 13 17:07:44 2019 +1100</span>
+<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" tabindex="-1"></a>    <span class="ex">adding</span> ingredients and instructions</span></code></pre>
+</div>
+<ul>
+<li>We can browse the development and access each state that we have
+committed.</li>
+<li>The long hashes uniquely label a state of the code.</li>
+<li>They are not just integers counting 1, 2, 3, 4, … (why?).</li>
+<li>We will use them when comparing versions and when going back in
+time.</li>
+<li>
+<code>git log --oneline</code> only shows the first 7 characters of
+the commit hash and is good to get an overview.</li>
+<li>If the first characters of the hash are unique it is not necessary
+to type the entire hash.</li>
+<li>
+<code>git log --stat</code> is nice to show which files have been
+modified.</li>
+</ul>
+<hr>
+<div id="challenge-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-1" class="callout-inner">
+<h3 class="callout-title">Challenge 1<a class="anchor" aria-label="anchor" href="#challenge-1"></a>
+</h3>
+<div class="callout-content">
+<p>Add 1/2 onion to <code>ingredients.txt</code> and also the
+instruction to “enjoy!” to <code>instructions.txt</code>. Do not stage
+the changes yet.</p>
+<p>When you are done editing the files, run <code>git diff</code>:</p>
+<div class="codewrapper sourceCode" id="cb13">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="ex">$</span> git diff</span></code></pre>
+</div>
+<p>What does the output tell you?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Solution to Challenge 1
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<pre><code>diff --git a/ingredients.txt b/ingredients.txt
+index 2607525..ec0abc6 100644
+--- a/ingredients.txt
++++ b/ingredients.txt
+@@ -1,3 +1,4 @@
+* 2 avocados
+* 1 lime
+* 2 tsp salt
++* 1/2 onion
+diff --git a/instructions.txt b/instructions.txt
+index 6a8b2af..f7dd63a 100644
+--- a/instructions.txt
++++ b/instructions.txt
+@@ -3,3 +3,4 @@
+* squeeze lime
+* add salt
+* and mix well
++* enjoy!</code></pre>
+<ul>
+<li>The output shows which files are being compared - the “before” and
+“after” versions of the same file.</li>
+<li>The new lines added are prefixed with a <code>+</code> sign to show
+that they are new.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="challenge-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-2" class="callout-inner">
+<h3 class="callout-title">Challenge 2<a class="anchor" aria-label="anchor" href="#challenge-2"></a>
+</h3>
+<div class="callout-content">
+<p>Stage and commit each change separately. For the second commit, don’t
+use the <code>-m</code> flag.</p>
+<p>What are the steps to run?</p>
+<p>What happens if you don’t use <code>-m</code>?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Solution to Challenge 2
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>A possible example:</p>
+<div class="codewrapper sourceCode" id="cb15">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="ex">$</span> git add ingredients.txt</span>
+<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"add half an onion"</span></span>
+<span id="cb15-3"><a href="#cb15-3" tabindex="-1"></a><span class="ex">$</span> git add instructions.txt</span>
+<span id="cb15-4"><a href="#cb15-4" tabindex="-1"></a><span class="ex">$</span> git commit                   </span></code></pre>
+</div>
+<p>When you leave out the <code>-m</code> flag, Git should open an
+editor where you can edit your commit message. This message will be
+associated and stored with the changes you made. This message is your
+chance to explain what you’ve done and convince others (and your future
+self) that the changes you made were justified.</p>
+<p>Using a text editor (instead of <code>-m</code>) can be useful
+because you can include much longer commit messages.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="writing-useful-commit-messages">Writing useful commit messages<a class="anchor" aria-label="anchor" href="#writing-useful-commit-messages"></a>
+</h3>
+<p>Using <code>git log --oneline</code> we understand that the first
+line of the commit message is very important.</p>
+<p>Good example:</p>
+<pre><code>increase threshold alpha to 2.0
+
+the motivation for this change is
+to enable ...
+...</code></pre>
+<p>Convention: <strong>one line summarizing the commit, then one empty
+line, then paragraph(s) with more details in free form, if
+necessary</strong>.</p>
+<ul>
+<li>Bad commit messages: “fix”, “oops”, “save work”, “foobar”, “toto”,
+“qppjdfjd”, ““.</li>
+<li>For your amusement: <a href="http://whatthecommit.com" class="external-link">http://whatthecommit.com</a>
+</li>
+<li>Write commit messages in English that will be understood 15 years
+from now by someone else than you.</li>
+</ul>
+<hr>
+</div>
+</section><section><h2 class="section-heading" id="ignoring-files-and-paths-with--gitignore">Ignoring files and paths with <code>.gitignore</code><a class="anchor" aria-label="anchor" href="#ignoring-files-and-paths-with-.gitignore"></a>
+<a class="anchor" aria-label="anchor" href="#ignoring-files-and-paths-with--gitignore"></a>
+</h2>
+<hr class="half-width">
+<p>Some files should not be tracked in a Git repository. This includes
+files that are: - specific to a particular computer - contain sensitive
+information - large, binary files - compiled files</p>
+<div id="discussion-1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="discussion-1" class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion-1"></a>
+</h3>
+<div class="callout-content">
+<p>What could be the problems raised by committing the above files to a
+repo?</p>
+</div>
+</div>
+</div>
+<p>For this we use <code>.gitignore</code> files. Example:</p>
+<pre><code># ignore R binary files
+*.RData
+# ignore .exe files
+*.exe</code></pre>
+<div id="challenge-3" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-3" class="callout-inner">
+<h3 class="callout-title">Challenge 3<a class="anchor" aria-label="anchor" href="#challenge-3"></a>
+</h3>
+<div class="callout-content">
+<p>Make a new file called <code>my-personal-notes.txt</code>. Add some
+content to the file that describes your feelings about Git so far…</p>
+<p>Since you might not want these comments seen by collaborators, make
+sure it is ignored by git</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Solution to Challenge 3
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div class="accordion-body">
+<p>By adding the path <code>my-personal-notes.txt</code> to the
+<code>.gitignore</code> file, your personal thoughts about Git won’t be
+added to any snapshots.</p>
+</div>
+</div>
+</div>
+</div>
+<p>You can have <code>.gitignore</code> files in lower level directories
+and they affect the paths relatively.</p>
+<p><code>.gitignore</code> should be part of the repository (why?).</p>
+<div class="section level3">
+<h3 id="keep-your-repo-clean">Keep your repo clean<a class="anchor" aria-label="anchor" href="#keep-your-repo-clean"></a>
+</h3>
+<ul>
+<li>Use <code>git status</code> a lot.</li>
+<li>Use <code>.gitignore</code>.</li>
+<li>If you don’t want to track a file, it should be listed in
+.gitignore.</li>
+<li>
+<strong>All files should be either tracked or ignored</strong>.</li>
+</ul>
+</div>
+</section><section><h2 class="section-heading" id="gui-tools">GUI tools<a class="anchor" aria-label="anchor" href="#gui-tools"></a>
+<a class="anchor" aria-label="anchor" href="#gui-tools"></a>
+</h2>
+<hr class="half-width">
+<p>It is also possible to work from within a Git graphical user
+interface (GUI):</p>
+<ul>
+<li><a href="https://www.sublimemerge.com/" class="external-link">Sublime Merge</a></li>
+<li><a href="https://desktop.github.com" class="external-link">GitHub Desktop</a></li>
+<li><a href="https://www.sourcetreeapp.com" class="external-link">SourceTree</a></li>
+<li><a href="https://git-scm.com/downloads/guis" class="external-link">List of third-party
+GUIs</a></li>
+</ul>
+<hr></section><section><h2 class="section-heading" id="summary">Summary<a class="anchor" aria-label="anchor" href="#summary"></a>
+<a class="anchor" aria-label="anchor" href="#summary"></a>
+</h2>
+<hr class="half-width">
+<p>Now we know how to save snapshots (commits):</p>
+<div class="codewrapper sourceCode" id="cb18">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="ex">$</span> git add <span class="op">&lt;</span>file<span class="er">(</span><span class="ex">s</span><span class="kw">)</span><span class="op">&gt;</span></span>
+<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a><span class="ex">$</span> git commit</span></code></pre>
+</div>
+<p>And this is what we do as we program.</p>
+<p>Every state is then saved and later we will learn how to go back to
+these “checkpoints” and how to undo things.</p>
+<div class="codewrapper sourceCode" id="cb19">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> git init    <span class="co"># initialize new repository</span></span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="ex">$</span> git add     <span class="co"># add files or stage file(s)</span></span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a><span class="ex">$</span> git commit  <span class="co"># commit staged file(s)</span></span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a><span class="ex">$</span> git status  <span class="co"># see what is going on</span></span>
+<span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a><span class="ex">$</span> git log     <span class="co"># see history</span></span>
+<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a><span class="ex">$</span> git diff    <span class="co"># show unstaged/uncommitted modifications</span></span>
+<span id="cb19-7"><a href="#cb19-7" tabindex="-1"></a><span class="ex">$</span> git show    <span class="co"># show the change for a specific commit</span></span>
+<span id="cb19-8"><a href="#cb19-8" tabindex="-1"></a><span class="ex">$</span> git mv      <span class="co"># move tracked files</span></span>
+<span id="cb19-9"><a href="#cb19-9" tabindex="-1"></a><span class="ex">$</span> git rm      <span class="co"># remove tracked files</span></span></code></pre>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>Initializing a Git repository is simple: <code>git init</code>
+</li>
+<li>Commits should be used to tell a story.</li>
+<li>Git uses the .git folder to store the snapshots.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-05-undoing"><p>Content from <a href="05-undoing.html">Undoing things</a></p>
+<hr>
+<p>Last updated on 2024-07-26 |
+
+        <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/episodes/05-undoing.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 25 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I undo things?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Learn to undo changes safely</li>
+<li>See when changes are permanently deleted and when they can be
+retrieved</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="undoing-things">Undoing things<a class="anchor" aria-label="anchor" href="#undoing-things"></a>
+<a class="anchor" aria-label="anchor" href="#undoing-things"></a>
+</h2>
+<hr class="half-width">
+<p>The whole point of version control is that you can be see and
+retrieve previous snapshots of your work.</p>
+<p>With Git, if you have committed (made a snapshot) of a file, you can
+get it back, even if it gets deleted or modified in the future.</p>
+<p>Some commands will modify the hitory of a Git repository. This is
+generally a <strong>very bad</strong> idea, and you should only do it if
+you’re really confident you know what you’re doing.</p>
+<p>If changes are <strong>uncommitted</strong>, they are not safe, and
+if they are deleted, they are gone.</p>
+<hr>
+<div class="section level3">
+<h3 id="reverting-commits">Reverting commits<a class="anchor" aria-label="anchor" href="#reverting-commits"></a>
+</h3>
+<ul>
+<li>Imagine we made a few commits.</li>
+<li>We realize that the latest commit was a mistake and we wish to undo
+it:</li>
+</ul>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> git log <span class="at">--oneline</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="ex">f960dd3</span> <span class="er">(</span><span class="ex">HEAD</span> <span class="at">-</span><span class="op">&gt;</span> main<span class="kw">)</span> <span class="ex">not</span> sure this is a good idea</span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a><span class="ex">40fbb90</span> draft a readme</span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="ex">dd4472c</span> we should not forget to enjoy</span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a><span class="ex">2bb9bb4</span> add half an onion</span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a><span class="ex">2d79e7e</span> adding ingredients and instructions</span></code></pre>
+</div>
+<p>A safe way to undo the commit is to revert the commit with
+<code>git revert</code>:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> git revert f960dd3</span></code></pre>
+</div>
+<p>This creates a <strong>new commit</strong> that does the opposite of
+the reverted commit. The old commit remains in the history:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> git log <span class="at">--oneline</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="ex">d62ad3e</span> <span class="er">(</span><span class="ex">HEAD</span> <span class="at">-</span><span class="op">&gt;</span> main<span class="kw">)</span> <span class="ex">Revert</span> <span class="st">"not sure this is a good idea"</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="ex">f960dd3</span> not sure this is a good idea</span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="ex">40fbb90</span> draft a readme</span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a><span class="ex">dd4472c</span> we should not forget to enjoy</span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a><span class="ex">2bb9bb4</span> add half an onion</span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a><span class="ex">2d79e7e</span> adding ingredients and instructions</span></code></pre>
+</div>
+<div id="challenge-1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-1" class="callout-inner">
+<h3 class="callout-title">Challenge 1<a class="anchor" aria-label="anchor" href="#challenge-1"></a>
+</h3>
+<div class="callout-content">
+<p>Make a new commit in your guacamole repo (it can be whatever you
+like)</p>
+<p>Inspect the history, and revert the commit.</p>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div class="section level3">
+<h3 id="undo-unstageduncommitted-changes">Undo unstaged/uncommitted changes<a class="anchor" aria-label="anchor" href="#undo-unstageduncommitted-changes"></a>
+</h3>
+<p><code>git restore</code> is used to restore a file, or all files,
+back to a previously commited state.</p>
+<p>Note: Older versions of git used
+<code>git checkout &lt;file&gt;</code> instead of
+<code>restore</code>.</p>
+<p>DANGER!!</p>
+<p>This command <strong>permanently deletes</strong> any changes that
+haven’t been staged/committed!</p>
+</div>
+<div class="section level3">
+<h3 id="modify-before-staging">Modify before staging<a class="anchor" aria-label="anchor" href="#modify-before-staging"></a>
+</h3>
+<ul>
+<li>Make a silly change to repo, do not stage it or commit it.</li>
+<li>Inspect the change with <code>git status</code> and
+<code>git diff</code>.</li>
+<li>Now undo the change with <code>git restore &lt;file&gt;</code>.</li>
+<li>Verify that the change is gone with <code>git status</code> and
+<code>git diff</code>.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="modify-after-staging">Modify after staging<a class="anchor" aria-label="anchor" href="#modify-after-staging"></a>
+</h3>
+<ul>
+<li>Make a reasonable change to a project, stage it.</li>
+<li>Make a silly change after you have staged the reasonable
+change.</li>
+<li>Inspect the situation with <code>git status</code>,
+<code>git diff</code>, <code>git diff --staged</code>, and
+<code>git diff HEAD</code>.</li>
+<li>Now undo the silly change with
+<code>git restore &lt;file&gt;</code>.</li>
+<li>Inspect the new situation with <code>git status</code>,
+<code>git diff</code>, <code>git diff --staged</code>, and
+<code>git diff HEAD</code>.</li>
+</ul>
+<hr>
+<div id="challenge-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-2" class="callout-inner">
+<h3 class="callout-title">Challenge 2<a class="anchor" aria-label="anchor" href="#challenge-2"></a>
+</h3>
+<div class="callout-content">
+<p>How much do you trust Git…?</p>
+<p>Delete one (or more) of your committed files using any method you
+like.</p>
+<p>Can you get it/them back?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Solution to Challenge 2
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>As long as a file was committed, you can get it back with
+<code>git restore &lt;file&gt;</code>, but Git isn’t magic - you won’t
+have any changes that weren’t committed.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="recovering-a-previous-versions">Recovering a previous versions<a class="anchor" aria-label="anchor" href="#recovering-a-previous-versions"></a>
+<a class="anchor" aria-label="anchor" href="#recovering-a-previous-versions"></a>
+</h2>
+<hr class="half-width">
+<p>Because git stores the complete history of whatever snapshots you
+have recorded, you can step back to anyone of them at different levels
+of detail, from the complete working directory, to single files, even to
+single changes within files.</p>
+<p>To get back to a previous state for the whole working directory, you
+can use <code>git restore [-s &lt;commit&gt;] .</code>. Jumping back to
+a previous commit can be useful for having a look at files, but you may
+get a warning about a detached HEAD (more discussion later).</p>
+<div class="section level3">
+<h3 id="recovering-previous-versions-of-single-files">Recovering previous versions of single files<a class="anchor" aria-label="anchor" href="#recovering-previous-versions-of-single-files"></a>
+</h3>
+<p>Often it’s useful to be able to access a previous version of a
+particular file. When the <code>restore</code> command is given a file
+path (along with a reference to a commit with “-s” or “–source=”) it
+will update that path to the previous state.</p>
+<p>Let’s see that with our recipe. If we wanted to get
+<code>ingredients.txt</code> back to its state before the addition of
+the onion, we could run</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">git</span> restore <span class="at">-s</span> 2d79e7e ingredients.txt</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="ex">Updated</span> 1 path from 2d79e7e</span></code></pre>
+</div>
+<p>If you run <code>git status</code> you’ll see that the changes to the
+file <code>ingredients.txt</code>, bringing it back to the previous
+state, are already staged and ready to be committed.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>Git history can be reverted without modifying it</li>
+<li>Once changes are committed they are safe</li>
+<li>Changes that are not committed can be deleted</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
 </section></section>
 </div>
     </main>
@@ -512,12 +1754,12 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/README.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/workbench-template-md/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/csiro-data-school/git-intro-23/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/csiro-data-school/git-intro-23/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/csiro-data-school/git-intro-23/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:david.spadaro@csiro.au">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
 
@@ -537,18 +1779,18 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
+  "@id": "https://csiro-data-school.github.io/git-intro-23/instructor/aio.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "git, bitbucket, github, versioning, version-control",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
+  "url": "https://csiro-data-school.github.io/git-intro-23/instructor/aio.html",
+  "identifier": "https://csiro-data-school.github.io/git-intro-23/instructor/aio.html",
   "dateCreated": "2024-07-25",
-  "dateModified": "2024-07-25",
-  "datePublished": "2024-07-25"
+  "dateModified": "2024-07-26",
+  "datePublished": "2024-07-26"
 }
 
   </script><script>
