@@ -38,7 +38,8 @@ If changes are **uncommitted**, they are not safe, and if they are deleted, they
 
 ```bash
 $ git log --oneline
-
+```
+```output
 f960dd3 (HEAD -> main) not sure this is a good idea
 40fbb90 draft a readme
 dd4472c we should not forget to enjoy
@@ -57,7 +58,8 @@ The old commit remains in the history:
 
 ```bash
 $ git log --oneline
-
+```
+```output
 d62ad3e (HEAD -> main) Revert "not sure this is a good idea"
 f960dd3 not sure this is a good idea
 40fbb90 draft a readme
@@ -146,7 +148,8 @@ addition of the onion, we could run
 
 ```bash
 git restore -s 2d79e7e ingredients.txt
-
+```
+```output
 Updated 1 path from 2d79e7e
 ```
 

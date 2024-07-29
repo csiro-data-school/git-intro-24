@@ -38,7 +38,7 @@ We'll start with a very simple
 [existing repository](https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/)
 that contains a brief history from a couple of different people.
 
-![](fig/bitbucket/example-repo.png){alt='BitBucket example screen' width="50%"}
+![](fig/bitbucket/example-repo.png){alt='BitBucket example screen' width=75%}
 
 - History
   - Explore the [repository](https://bitbucket.csiro.au/projects/DAT/repos/programmatic-data-example/).
