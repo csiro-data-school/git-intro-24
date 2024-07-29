@@ -33,7 +33,7 @@ Let's work through it together in Git Bash.
 
 First, the following commands will set your user name and email address:
 
-```shell
+```bash
 $ git config --global user.name "Your Name"
 $ git config --global user.email yourname@example.com
 ```

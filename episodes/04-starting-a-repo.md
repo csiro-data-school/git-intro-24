@@ -59,6 +59,8 @@ within `recipe` called `.git`:
 
 ```bash
 $ ls -a 
+```
+```output
 . ..  .git 
 ```
 
@@ -68,7 +70,8 @@ We will use `git status` a lot to check out to see what is going on with the rep
 
 ```bash
 $ git status
-
+```
+```output
 On branch main
 
 No commits yet
@@ -106,7 +109,7 @@ $ git commit
 
 - We first focus (`git add`, we "stage" the change), then shoot (`git commit`):
 
-![](fig/git_stage_commit.svg){alt='git staging and committing' max-width="70%"}
+![](fig/git_stage_commit.svg){alt='git staging and committing' width=75%}
 
 ::::::::::::::::::::::::::::::::::::::::  discussion
 
@@ -148,7 +151,8 @@ do when you are trying to figure out what to do next:
 
 ```bash
 $ git status
-
+```
+```output
 On branch main
 
 No commits yet
@@ -172,7 +176,8 @@ Git hints at and add the files:
 $ git add ingredients.txt
 $ git add instructions.txt
 $ git status
-
+```
+```output
 On branch main
 
 Initial commit
@@ -190,7 +195,8 @@ Let's now commit the change to the repository:
 
 ```bash
 $ git commit -m "adding ingredients and instructions"
-
+```
+```output
 [main (root-commit) aa243ea] adding ingredients and instructions
  2 files changed, 8 insertions(+)
  create mode 100644 ingredients.txt
@@ -209,7 +215,8 @@ Now try `git log` to see the information that git has stored about your snapshot
 
 ```bash
 $ git log
-
+```
+```output
 commit 787611f02dd6fc862c87359b804859caa5d2fdbd
 Author: Alex Whan <alexwhan@gmail.com>
 Date:   Wed Mar 13 17:07:44 2019 +1100
@@ -246,7 +253,7 @@ What does the output tell you?
 
 ## Solution to Challenge 1
 
-```
+```output
 diff --git a/ingredients.txt b/ingredients.txt
 index 2607525..ec0abc6 100644
 --- a/ingredients.txt
