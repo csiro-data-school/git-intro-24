@@ -108,11 +108,11 @@
   Introduction to git
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 45%" class="percentage">
-    45%
+<aside class="col-md-12 lesson-progress"><div style="width: 37%" class="percentage">
+    37%
   </div>
   <div class="progress software">
-    <div class="progress-bar software" role="progressbar" style="width: 45%" aria-valuenow="45" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar software" role="progressbar" style="width: 37%" aria-valuenow="37" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -254,6 +254,15 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-branches.html">6. Branching and merging</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -312,7 +321,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Our first repo</h1>
-        <p>Last updated on 2024-07-26 |
+        <p>Last updated on 2024-07-29 |
 
         <a href="https://github.com/csiro-data-school/git-intro-23/edit/main/episodes/04-starting-a-repo.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -388,8 +397,12 @@ called <code>.git</code>:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> ls <span class="at">-a</span> </span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="bu">.</span> ..  .git </span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> ls <span class="at">-a</span> </span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>. ..  .git </code></pre>
 </div>
 <p>Git uses this special sub-directory to store all the information
 about the project, including all files and sub-directories located
@@ -397,16 +410,19 @@ within the project’s directory. If we ever delete the .git
 sub-directory, we will lose the project’s history.</p>
 <p>We will use <code>git status</code> a lot to check out to see what is
 going on with the repository:</p>
-<div class="codewrapper sourceCode" id="cb4">
+<div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">$</span> git status</span>
-<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="ex">On</span> branch main</span>
-<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="ex">No</span> commits yet</span>
-<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a><span class="ex">nothing</span> to commit <span class="er">(</span><span class="ex">create/copy</span> files and use <span class="st">"git add"</span> to track<span class="kw">)</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)</code></pre>
 </div>
 <p>We will make sense of this information during this lesson.</p>
 </section><section><h2 class="section-heading" id="so-what-exactly-is-a-git-repository">So what exactly is a Git repository?<a class="anchor" aria-label="anchor" href="#so-what-exactly-is-a-git-repository"></a>
@@ -433,18 +449,18 @@ anything automatically).</li>
 <hr class="half-width"><ul><li>Git takes snapshots only if we request it.</li>
 <li>We will record changes always in two steps (we will later explain
 why this is a recommended practice):</li>
-</ul><div class="codewrapper sourceCode" id="cb5">
+</ul><div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">$</span> git add somefile.txt</span>
-<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="ex">$</span> git commit</span>
-<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a><span class="ex">$</span> git add file.txt anotherfile.txt</span>
-<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a><span class="ex">$</span> git commit</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="ex">$</span> git add somefile.txt</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="ex">$</span> git commit</span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="ex">$</span> git add file.txt anotherfile.txt</span>
+<span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a><span class="ex">$</span> git commit</span></code></pre>
 </div>
 <ul><li>We first focus (<code>git add</code>, we “stage” the change), then
 shoot (<code>git commit</code>):</li>
-</ul><figure><img src="fig/git_stage_commit.svg" alt="git staging and committing" max-width="70%" class="figure mx-auto d-block"></figure><div id="discussion" class="callout discussion">
+</ul><figure><img src="fig/git_stage_commit.svg" style="width:75.0%" alt="git staging and committing" class="figure mx-auto d-block"></figure><div id="discussion" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -476,22 +492,25 @@ contains:</p>
 in your repository using <code>git status</code>. It is always a safe
 command to run and in general a good idea to do when you are trying to
 figure out what to do next:</p>
-<div class="codewrapper sourceCode" id="cb8">
+<div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="ex">$</span> git status</span>
-<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a></span>
-<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a><span class="ex">On</span> branch main</span>
-<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a></span>
-<span id="cb8-5"><a href="#cb8-5" tabindex="-1"></a><span class="ex">No</span> commits yet</span>
-<span id="cb8-6"><a href="#cb8-6" tabindex="-1"></a></span>
-<span id="cb8-7"><a href="#cb8-7" tabindex="-1"></a><span class="ex">Untracked</span> files:</span>
-<span id="cb8-8"><a href="#cb8-8" tabindex="-1"></a>  <span class="kw">(</span><span class="ex">use</span> <span class="st">"git add &lt;file&gt;..."</span> to include in what will be committed<span class="kw">)</span></span>
-<span id="cb8-9"><a href="#cb8-9" tabindex="-1"></a></span>
-<span id="cb8-10"><a href="#cb8-10" tabindex="-1"></a>	<span class="ex">ingredients.txt</span></span>
-<span id="cb8-11"><a href="#cb8-11" tabindex="-1"></a>	<span class="ex">instructions.txt</span></span>
-<span id="cb8-12"><a href="#cb8-12" tabindex="-1"></a></span>
-<span id="cb8-13"><a href="#cb8-13" tabindex="-1"></a><span class="ex">nothing</span> added to commit but untracked files present <span class="er">(</span><span class="ex">use</span> <span class="st">"git add"</span> to track<span class="kw">)</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add &lt;file&gt;..." to include in what will be committed)
+
+	ingredients.txt
+	instructions.txt
+
+nothing added to commit but untracked files present (use "git add" to track)</code></pre>
 </div>
 <p>The two files are untracked in the repository (directory). Going back
 to the photography analogy, you want to <strong><code>add</code> the
@@ -499,57 +518,66 @@ files</strong> (focus the camera) to the list of files tracked by Git.
 Git does not track any files automatically and you need make a conscious
 decision to add a file. Let’s do what Git hints at and add the
 files:</p>
-<div class="codewrapper sourceCode" id="cb9">
+<div class="codewrapper sourceCode" id="cb12">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="ex">$</span> git add ingredients.txt</span>
-<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="ex">$</span> git add instructions.txt</span>
-<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="ex">$</span> git status</span>
-<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a></span>
-<span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a><span class="ex">On</span> branch main</span>
-<span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a></span>
-<span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a><span class="ex">Initial</span> commit</span>
-<span id="cb9-8"><a href="#cb9-8" tabindex="-1"></a></span>
-<span id="cb9-9"><a href="#cb9-9" tabindex="-1"></a><span class="ex">Changes</span> to be committed:</span>
-<span id="cb9-10"><a href="#cb9-10" tabindex="-1"></a>  <span class="kw">(</span><span class="ex">use</span> <span class="st">"git rm --cached &lt;file&gt;..."</span> to unstage<span class="kw">)</span></span>
-<span id="cb9-11"><a href="#cb9-11" tabindex="-1"></a></span>
-<span id="cb9-12"><a href="#cb9-12" tabindex="-1"></a>	<span class="ex">new</span> file:   ingredients.txt</span>
-<span id="cb9-13"><a href="#cb9-13" tabindex="-1"></a>	<span class="ex">new</span> file:   instructions.txt</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="ex">$</span> git add ingredients.txt</span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a><span class="ex">$</span> git add instructions.txt</span>
+<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>On branch main
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached &lt;file&gt;..." to unstage)
+
+	new file:   ingredients.txt
+	new file:   instructions.txt</code></pre>
 </div>
 <p>Now this change is <em>staged</em> and ready to be committed (the
 camera is focused and we’re ready to take the snapshot).</p>
 <p>Let’s now commit the change to the repository:</p>
-<div class="codewrapper sourceCode" id="cb10">
+<div class="codewrapper sourceCode" id="cb14">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"adding ingredients and instructions"</span></span>
-<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a></span>
-<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a><span class="ex">[main</span> <span class="er">(</span><span class="ex">root-commit</span><span class="kw">)</span> <span class="ex">aa243ea]</span> adding ingredients and instructions</span>
-<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a> <span class="ex">2</span> files changed, 8 insertions<span class="er">(</span><span class="ex">+</span><span class="kw">)</span></span>
-<span id="cb10-5"><a href="#cb10-5" tabindex="-1"></a> <span class="ex">create</span> mode 100644 ingredients.txt</span>
-<span id="cb10-6"><a href="#cb10-6" tabindex="-1"></a> <span class="ex">create</span> mode 100644 instructions.txt</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"adding ingredients and instructions"</span></span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>[main (root-commit) aa243ea] adding ingredients and instructions
+ 2 files changed, 8 insertions(+)
+ create mode 100644 ingredients.txt
+ create mode 100644 instructions.txt</code></pre>
 </div>
 <p>Right after we query the status to get this useful command into our
 muscle memory:</p>
-<div class="codewrapper sourceCode" id="cb11">
+<div class="codewrapper sourceCode" id="cb16">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
 </div>
 <div class="section level3">
 <h3 id="looking-at-the-history">Looking at the history<a class="anchor" aria-label="anchor" href="#looking-at-the-history"></a></h3>
 <p>Now try <code>git log</code> to see the information that git has
 stored about your snapshot:</p>
-<div class="codewrapper sourceCode" id="cb12">
+<div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="ex">$</span> git log</span>
-<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a></span>
-<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a><span class="ex">commit</span> 787611f02dd6fc862c87359b804859caa5d2fdbd</span>
-<span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a><span class="ex">Author:</span> Alex Whan <span class="op">&lt;</span>alexwhan@gmail.com<span class="op">&gt;</span></span>
-<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a><span class="ex">Date:</span>   Wed Mar 13 17:07:44 2019 +1100</span>
-<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a></span>
-<span id="cb12-7"><a href="#cb12-7" tabindex="-1"></a>    <span class="ex">adding</span> ingredients and instructions</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="ex">$</span> git log</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>commit 787611f02dd6fc862c87359b804859caa5d2fdbd
+Author: Alex Whan &lt;alexwhan@gmail.com&gt;
+Date:   Wed Mar 13 17:07:44 2019 +1100
+
+    adding ingredients and instructions</code></pre>
 </div>
 <ul><li>We can browse the development and access each state that we have
 committed.</li>
@@ -577,10 +605,10 @@ modified.</li>
 instruction to “enjoy!” to <code>instructions.txt</code>. Do not stage
 the changes yet.</p>
 <p>When you are done editing the files, run <code>git diff</code>:</p>
-<div class="codewrapper sourceCode" id="cb13">
+<div class="codewrapper sourceCode" id="cb19">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="ex">$</span> git diff</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> git diff</span></code></pre>
 </div>
 <p>What does the output tell you?</p>
 </div>
@@ -595,7 +623,10 @@ the changes yet.</p>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
-<pre><code>diff --git a/ingredients.txt b/ingredients.txt
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>diff --git a/ingredients.txt b/ingredients.txt
 index 2607525..ec0abc6 100644
 --- a/ingredients.txt
 +++ b/ingredients.txt
@@ -613,6 +644,7 @@ index 6a8b2af..f7dd63a 100644
 * add salt
 * and mix well
 +* enjoy!</code></pre>
+</div>
 <ul><li>The output shows which files are being compared - the “before” and
 “after” versions of the same file.</li>
 <li>The new lines added are prefixed with a <code>+</code> sign to show
@@ -646,13 +678,13 @@ use the <code>-m</code> flag.</p>
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>A possible example:</p>
-<div class="codewrapper sourceCode" id="cb15">
+<div class="codewrapper sourceCode" id="cb21">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="ex">$</span> git add ingredients.txt</span>
-<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"add half an onion"</span></span>
-<span id="cb15-3"><a href="#cb15-3" tabindex="-1"></a><span class="ex">$</span> git add instructions.txt</span>
-<span id="cb15-4"><a href="#cb15-4" tabindex="-1"></a><span class="ex">$</span> git commit                   </span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="ex">$</span> git add ingredients.txt</span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"add half an onion"</span></span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="ex">$</span> git add instructions.txt</span>
+<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a><span class="ex">$</span> git commit                   </span></code></pre>
 </div>
 <p>When you leave out the <code>-m</code> flag, Git should open an
 editor where you can edit your commit message. This message will be
@@ -764,27 +796,27 @@ GUIs</a></li>
 </ul><hr></section><section><h2 class="section-heading" id="summary">Summary<a class="anchor" aria-label="anchor" href="#summary"></a>
 <a class="anchor" aria-label="anchor" href="#summary"></a></h2>
 <hr class="half-width"><p>Now we know how to save snapshots (commits):</p>
-<div class="codewrapper sourceCode" id="cb18">
+<div class="codewrapper sourceCode" id="cb24">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="ex">$</span> git add <span class="op">&lt;</span>file<span class="er">(</span><span class="ex">s</span><span class="kw">)</span><span class="op">&gt;</span></span>
-<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a><span class="ex">$</span> git commit</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a><span class="ex">$</span> git add <span class="op">&lt;</span>file<span class="er">(</span><span class="ex">s</span><span class="kw">)</span><span class="op">&gt;</span></span>
+<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a><span class="ex">$</span> git commit</span></code></pre>
 </div>
 <p>And this is what we do as we program.</p>
 <p>Every state is then saved and later we will learn how to go back to
 these “checkpoints” and how to undo things.</p>
-<div class="codewrapper sourceCode" id="cb19">
+<div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> git init    <span class="co"># initialize new repository</span></span>
-<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="ex">$</span> git add     <span class="co"># add files or stage file(s)</span></span>
-<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a><span class="ex">$</span> git commit  <span class="co"># commit staged file(s)</span></span>
-<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a><span class="ex">$</span> git status  <span class="co"># see what is going on</span></span>
-<span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a><span class="ex">$</span> git log     <span class="co"># see history</span></span>
-<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a><span class="ex">$</span> git diff    <span class="co"># show unstaged/uncommitted modifications</span></span>
-<span id="cb19-7"><a href="#cb19-7" tabindex="-1"></a><span class="ex">$</span> git show    <span class="co"># show the change for a specific commit</span></span>
-<span id="cb19-8"><a href="#cb19-8" tabindex="-1"></a><span class="ex">$</span> git mv      <span class="co"># move tracked files</span></span>
-<span id="cb19-9"><a href="#cb19-9" tabindex="-1"></a><span class="ex">$</span> git rm      <span class="co"># remove tracked files</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="ex">$</span> git init    <span class="co"># initialize new repository</span></span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a><span class="ex">$</span> git add     <span class="co"># add files or stage file(s)</span></span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a><span class="ex">$</span> git commit  <span class="co"># commit staged file(s)</span></span>
+<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a><span class="ex">$</span> git status  <span class="co"># see what is going on</span></span>
+<span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a><span class="ex">$</span> git log     <span class="co"># see history</span></span>
+<span id="cb25-6"><a href="#cb25-6" tabindex="-1"></a><span class="ex">$</span> git diff    <span class="co"># show unstaged/uncommitted modifications</span></span>
+<span id="cb25-7"><a href="#cb25-7" tabindex="-1"></a><span class="ex">$</span> git show    <span class="co"># show the change for a specific commit</span></span>
+<span id="cb25-8"><a href="#cb25-8" tabindex="-1"></a><span class="ex">$</span> git mv      <span class="co"># move tracked files</span></span>
+<span id="cb25-9"><a href="#cb25-9" tabindex="-1"></a><span class="ex">$</span> git rm      <span class="co"># remove tracked files</span></span></code></pre>
 </div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
@@ -863,8 +895,8 @@ any links that you are not going to use.
   "url": "https://csiro-data-school.github.io/git-intro-23/04-starting-a-repo.html",
   "identifier": "https://csiro-data-school.github.io/git-intro-23/04-starting-a-repo.html",
   "dateCreated": "2024-07-25",
-  "dateModified": "2024-07-26",
-  "datePublished": "2024-07-26"
+  "dateModified": "2024-07-29",
+  "datePublished": "2024-07-29"
 }
 
   </script><script>
