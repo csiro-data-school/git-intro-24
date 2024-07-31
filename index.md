@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+This is an introduction to Git which uses CSIRO's BitBucket for online repository demonstrations. 
 
 
 [workbench]: https://carpentries.github.io/sandpaper-docs
